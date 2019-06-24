@@ -1,0 +1,35 @@
+@media (max-width: 767px){
+	.p-sticky{
+		position: static;
+	}
+	header .right {
+	    text-align: left;
+	}
+	.box-search, .list-icon{
+		margin-top: 10px;
+		float: left;
+		width: 100%;
+	}
+	.input-search{
+		width: 80%;
+		float: left;
+	}
+	.btn-search{
+		width: 20%;
+		float: left;
+	}
+}
+@media (min-width: 768px) {
+	
+}
+@media (min-width: 768px) and (max-width: 999px){
+	.menu{
+		margin-top: 20px;
+	}
+}
+@media (min-width: 1000px) {
+	
+}
+@media (min-width: 1200px){
+	
+}

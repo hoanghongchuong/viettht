@@ -1,0 +1,16 @@
+.slider{
+    width: 100%;
+    float: left;
+}
+.slider img{
+    width: 100%;
+}
+.hotel-service-2{
+    width: 100%;
+    float: left;
+}
+.p-sticky{
+	position: -webkit-sticky;
+    position: sticky;
+    top: 90px;
+}
