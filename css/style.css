@@ -184,7 +184,229 @@ header .right{
     font-size: 26px;
     border-left: 2px solid #99cc33;
     padding-left: 20px;
+    margin-bottom: 30px;
 }
 .box-title p{
 
+}
+.list-program{
+    width: 100%;
+    float: left;
+}
+.list-program a{
+    border:1px solid #ccc;
+    color: #003333;
+    font-size: 18px;
+    padding: 12px 10px;
+}
+.list-program a:hover{
+    color: #99cc33;
+}
+.special{
+    color: #fff !important;
+    background: #99cc33;
+}
+.special:hover{
+    color: #fff;
+}
+.box-program-hot{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.box-left{
+    position: relative;
+}
+.box-left .img-video{
+    width: 100%;
+}
+.background-item {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    height: 320px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.background-item .plus-icon {
+    position: absolute;
+    z-index: 100;
+    top: calc(47% - 30px);
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;    
+}
+.box-program-hot .box-right{
+    background: #99cc33;
+    display: block;
+    height: 320px;
+    overflow: hidden;
+    padding: 40px;
+}
+.name-program{
+    margin:0;
+    margin-bottom: 15px;
+}
+.name-program a{
+    color: #000;
+    text-transform: uppercase;
+}
+.box-program-hot .item{
+    width: 100%;
+    float: left;
+    color: #fff;
+    font-size: 15px;
+}
+.slider-program{
+    width:100%;
+    float: left;
+}
+.owl-carousel-product .item{
+    border:1px solid #ccc;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+.owl-carousel-product .owl-controls .owl-nav .owl-prev {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    left: 0px;
+    margin-left: 0px;
+}
+.owl-carousel-product .owl-controls .owl-nav .owl-next {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    right: 0px;
+    margin-right: 0px;
+}
+.owl-carousel-product .owl-controls .owl-nav .owl-next i, .owl-carousel-product .owl-controls .owl-nav .owl-prev {
+    border: 1px solid #cccccc;
+    background: #cccccc;
+    /*border-radius: 50%;*/
+    padding: 4px 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.content-box-news{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    border-top: 2px solid #ccc;
+    padding-top: 30px;
+}
+.content-box-news img{
+    width: 100%;
+}
+.item-box-news{
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.name-news{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.des{
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    height: 98px;    
+}
+.xemthem{
+    margin-top: 10px;
+    text-align: right;
+}
+.xemthem a{
+    background: #99cc33;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 15px;
+    text-decoration: underline;
+}
+.box-ke{
+    width:100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box-ke span{
+    display: block;
+    height: 1px;
+    border:1px dotted #ccc;
+    width: 320px;
+    margin:0 auto;
+}
+.title-home{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 26px;
+}
+footer{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    background: #99cc33;
+    padding-top: 30px;
+}
+.top-footer h4{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000;
+}
+.top-footer p{
+    color: #fff;
+}
+.input-newletter{
+    height: 40px;
+    width: 75%;
+    padding-left: 5px;
+}
+.btn-submit-newletter{
+    width: 23%;
+    height: 40px;
+    background: #0066cc;
+    color: #fff;
+    text-transform: uppercase;
+    border:none;
+}
+.box-newletter{
+    border:1px solid #fff;
+    padding: 8px 10px;
+}
+.bottom-footer{
+    width: 100%;
+    float: left;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    text-align: right;
+}
+.bottom-footer ul li{
+    display: inline-block;
+}
+.bottom-footer ul li a{
+    color: #fff;
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.bottom-footer ul li:last-child a{
+    border-right: 0px;
+}
+.copyright{
+    color: #fff;
 }
