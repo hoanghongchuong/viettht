@@ -95,6 +95,7 @@ header .right{
 }
 .menu ul.navi > li{
     position: relative;
+    line-height: 45px;
 }
 .menu ul.navi > li:hover > a{
     color: #000;
@@ -104,8 +105,14 @@ header .right{
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
-    padding: 15px 5px;
-    display: block;
+    /* padding: 15px 5px; */
+    /* display: block; */
+    border-right: 1px solid #fff;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.menu ul.navi > li:last-child a{
+    border-right: 0px;
 }
 .menu-mobile{
     width: 100%;
@@ -193,6 +200,10 @@ header .right{
     width: 100%;
     float: left;
 }
+.list-program ul li{
+    display: inline-block;
+    line-height: 46px
+}
 .list-program a{
     border:1px solid #ccc;
     color: #003333;
@@ -270,6 +281,14 @@ header .right{
     margin-right: 5px;
     padding: 5px;
 }
+.owl-carousel-product .item p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*margin-top: 10px;*/
+}
+.owl-carousel-product .item i{
+    color: #ff9900;
+}
 .owl-carousel-product .owl-controls .owl-nav .owl-prev {
     display: inline-block;
     position: absolute;
@@ -297,11 +316,11 @@ header .right{
 .content-box-news{
     width: 100%;
     float: left;
-    margin-top: 30px;
+    margin-top: 0px;
     border-top: 2px solid #ccc;
     padding-top: 30px;
 }
-.content-box-news img{
+.content-box-news .img-100{
     width: 100%;
 }
 .item-box-news{
@@ -340,7 +359,7 @@ header .right{
 .box-ke{
     width:100%;
     float: left;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -354,7 +373,7 @@ header .right{
 .title-home{
     text-transform: uppercase;
     text-align: center;
-    font-size: 26px;
+    font-size: 30px;
 }
 footer{
     width: 100%;
@@ -409,4 +428,135 @@ footer{
 }
 .copyright{
     color: #fff;
+}
+.box-list-news{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.box-list-news ul li{
+    padding-left: 0px;
+    list-style: square;
+}
+.box-list-news ul li:nth-child(even){
+
+}
+.box-video-gallery{
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+}
+.bg-video{
+    height: 110px;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    position: relative;
+}
+.item-video{
+    margin-bottom: 30px;
+}
+.item-video .plus-icon{
+    position: absolute;
+    z-index: 100;
+    top: calc(47% - 30px);
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.box-chanel{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.box-chanel ul{
+    margin-top: 40px;
+}
+.box-chanel ul li{
+    display: inline-block;
+    border:1px solid #ccc;
+    width: 24%;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+.link-box{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    border-top: 1px dotted #ccc;
+    padding-top: 20px;
+}
+.link-box .item{
+    background: #0066cc;
+    padding: 8px 25px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.last-link{
+    background: #99cc33;
+    padding: 10px 15px 10px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+}
+.crumb {
+    width: 100%;
+    float: left;
+    background: #F5F5F5;
+}
+.breadcrumbx {
+    margin-bottom: 0px;
+}
+.crumb a {
+    color: #333;
+    font-size: 14px;
+}
+.box-item-news {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.box-item-news img {
+    width: 100%;
+}
+.name_news {
+    font-size: 18px;
+    color: #000;
+}
+.content-home-cate{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.danhgia{
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+.list-item-program img{
+    width: 100%;    
+}
+.list-item-program .item{
+    border:1px solid #ccc;
+    width: 100%;
+    float: left;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.list-item-program .item p{
+    margin-top: 10px;
+}
+.list-item-program .item i{
+    color: #ff9900;
 }

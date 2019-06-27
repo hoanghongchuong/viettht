@@ -1,1298 +1,192 @@
 <html>
 
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Trang chủ</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trang chủ</title>
     <!-- <link href="mmenu/jquery.mmenu.all.min.css" rel="stylesheet" /> -->
-	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/slider.css" />
     <link rel="stylesheet" type="text/css" href="css/cus.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
     <script> new WOW().init(); </script>
 </head>
 <body>
-    <header class="main-header">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="/" class="logo">
-                    <img src="images/logo.png">
-                </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="/">Trang chủ</a>
-                    </li>
-                    <li>
-                        <a href="/phong-can-ho.html">Phòng/căn hộ</a>
-                    </li>
-                    <li>
-                        <a href="/dich-vu.html">Dịch vụ</a>
-                    </li>
-                    <li>
-                        <a href="/tin-tuc.html">Tin tức</a>
-                    </li>
-                    <li><a href="/ve-chung-toi.html">Về chúng tôi</a></li>
-                    <li><a href="/lien-he.html">Liên hệ</a></li>
-                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-            <!-- /.container -->
-        </div>
-    </nav>
-</header>
-<!-- Header End -->
-<!-- Page Banner Start -->
-<div class="page-banner">
-        <div class="container">
+<header id="header" class="header">
+    <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <div class="breadcrumb-area">
-                    <h2>Danh sách phòng</h2>
-                    
+            <div class="col-md-3">
+                <a href="" title=""><img src="images/logo.png" class="img-logo" alt=""></a>
+            </div>
+            <div class="col-md-6 col-xs-12 right">
+                <div class="box-search">
+                    <input type="text" name="txtSearch" class="input-search">
+                    <input type="submit" name="" value="Search" class="btn-search">                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="list-icon">
+                    <a href="" title=""><img src="images/icon1.png" alt=""></a>
+                    <a href="" title=""><img src="images/icon2.png" alt=""></a>
+                    <a href="" title=""><img src="images/icon3.png" alt=""></a>
+                    <a href="" title=""><img src="images/icon4.png" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header><!-- /header -->
+<div class="menu visible-lg visible-md">
+    <div class="container">
+        <div class="row">
+            <ul class="navi">                                        
+                <li><a href="">Trang chủ</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Chương trình truyền hình</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Liên hệ</a></li>
+                
+            </ul>
+            
+        </div>
+    </div>
+</div><!-- /menu -->
+<!-- menu-mobile -->
+<div class="visible-xs visible-sm menu-mobile">     
+    <div class="vk-header__search">
+        <div class="container">                
+            <a href="#menuMobile" class="menu_Mobile" data-toggle="collapse" class="_btn d-lg-none menu_title"><i class="fa fa-bars"></i> Menu</a>
+        </div>
+    </div>
+    <nav class="vk-header__menu-mobile">
+        <ul class="vk-menu__mobile collapse" id="menuMobile">
+            
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="">Chương trình truyền hình</a></li>
+            <li><a href="">Tin tức</a></li>
+            <li><a href="">Liên hệ</a></li>
+        </ul>
+    </nav>        
+</div>    
+<div class="crumb">
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb breadcrumbx">
+                <li>
+                    <a href="">Trang chủ</a>
+                </li>
+                <li class="active"><a href="#">Chương trình truyền hình</a></li>
+            </ol>
+        </div>
+    </div>
+</div>
+<div class="content-home-cate">
+    <div class="container">
+        <div class="row list-item-program">
+            <div class="col-md-3 col-xs-6 pdl-0">
+                <div class="item">
+                    <img src="images/p1.png" alt="">
+                    <p>
+                        <span class="pull-left">2018</span>
+                        <span class="pull-right"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6 pdl-0">
+                <div class="item">
+                    <img src="images/p1.png" alt="">
+                    <p>
+                        <span class="pull-left">2018</span>
+                        <span class="pull-right"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6 pdl-0">
+                <div class="item">
+                    <img src="images/p1.png" alt="">
+                    <p>
+                        <span class="pull-left">2018</span>
+                        <span class="pull-right"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6 pdl-0">
+                <div class="item">
+                    <img src="images/p1.png" alt="">
+                    <p>
+                        <span class="pull-left">2018</span>
+                        <span class="pull-right"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6 pdl-0">
+                <div class="item">
+                    <img src="images/p1.png" alt="">
+                    <p>
+                        <span class="pull-left">2018</span>
+                        <span class="pull-right"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6 pdl-0">
+                <div class="item">
+                    <img src="images/p1.png" alt="">
+                    <p>
+                        <span class="pull-left">2018</span>
+                        <span class="pull-right"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Page Banner End -->
-<!-- Rooms List Start-->
-<div class="rooms-list content-area">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-4 col-md-4 col-xs-12 p-sticky">
-            <!-- Sidebar Start-->
-            <div class="sidebar ">
-               <aside class="sidebar-widget">
-                  <!-- Review Start -->
-                    <form action="#" method="GET" id="lst_form_filter">
-                        
-                        <input id="_token" value="OjDvoRxpr7S0CObnfjEsoyeTVEFuTlIksxG75D5b" type="hidden">
-                        <div class="review">
-                            <!-- Option Bar -->
-                            <div class="option-bar clearfix">
-                               <div class="row">
-                                  <div class="col-lg-12 col-md-12 col-sm-12">
-                                     <div class="section-heading">
-                                        <div class="media">
-                                           <div class="media-left">
-                                              <i class="flaticon-royalty-crown"></i>
-                                           </div>
-                                           <div class="media-body">
-                                              <h4>Tìm kiếm phòng/căn hộ</h4>
-                                              <div class="border"></div>
-                                              <p>Tìm kiếm phòng/căn hộ của bạn</p>
-                                           </div>
-                                        </div>
-                                     </div>
-                                  </div>
-                               </div>
-                            </div>
-                        </div>
-                         <!-- Review End -->
-                         <!--Tim theo khu vuc-->
-                        <div class="popular-rooms">
-                            <!-- title-->
-                            <h2 class="title">Khu vực</h2>
-                            <select class="form-control" name="area">
-                                <option>Hà Nội</option>
-                                <option>Nam Định</option>
-                                <option>Hòa Bình</option>
-                                <option>Hà Nội</option>
-                            </select>
-                        </div>
-                         <!-- Popular Rooms Start -->
-                        <div class="popular-rooms">                            
-                            <div class="form-group">
-                               <label>&nbsp;</label><br>
-                               <button class="btn btn-primary">Tìm kiếm</button>
-                            </div>
-                        </div>                         
-                    </form>
-               </aside>
-               <!-- End-->
-               <!-- Helping Start-->
-                <div class="show-pc">
-                    <div class="helping-Center sidebar-widget">
-                        <h2 class="title">Trợ giúp</h2>
-                        <p>Trung tâm chăm sóc khách hàng.</p>
-                        <ul class="contact-link">
-                            <li>
-                               <a href="#">
-                               <i class="fa fa-map-marker"></i>
-                               102 Thái Thịnh, phường Trung Liệt, quận Đống Đa, Hà Nội
-                               </a>
-                            </li>
-                            <li>
-                               <a href="tel:0944-910-499">
-                               <i class="fa fa-phone"></i>
-                               0944-910-499
-                               </a>
-                            </li>
-                            <li>
-                               <a href="mailto:always2home@gmail.com">
-                               <i class="fa fa-envelope-o"></i>
-                               always2home@gmail.com
-                               </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-               <!-- Helping End-->
-            </div>
-            <!-- Sidebar End-->
-         </div>
-         <div class="col-lg-8 col-md-8 col-xs-12">
-            <!-- Block Heading Start-->
-            <div class="block-heading">
-               <h4>
-                  <span class="heading-icon">
-                  <i class="fa fa-caret-right icon-design"></i>
-                  <i class="fa fa-th-list"></i>
-                  </span>
-                  Danh sách phòng
-               </h4>
-               <!--<div class="toggle-view pull-right">
-                  <a href="#" class="active-view-btn">
-                      <i class="fa fa-th-list"></i>
-                  </a>
-                  <a href="#" class="change-view-btn">
-                      <i class="fa fa-th-large"></i>
-                  </a>
-                  </div>-->
-            </div>
-            <!-- Block Heading End -->
-            <!-- Rooms List Start -->
-            <div class="rooms-list-box clearfix">
-               <div class=" row-table row-flush">
-                  <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12 rooms-pic">
-                     <a href="http://2home.vn/phong-can-ho/vi-s-homestay-19-green-bay/175.html">
-                     <img src="http://admin.2home.vn/upload/58c6481e03783ec6f74561455c250c8d.jpg" alt="Vi&#039;s Homestay 19 - Green Bay" class="img-responsive">
-                     </a>
-                  </div>
-                  <!-- Detail Body -->
-                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 detail-body">
-                     <!-- Header -->
-                     <header>
-                        <div class="pull-left">
-                           <!-- Title -->
-                           <h5 class="title">
-                              <a href="http://2home.vn/phong-can-ho/vi-s-homestay-19-green-bay/175.html">Vi&#039;s Homestay 19 - Green Bay</a>
-                           </h5>
-                           <!-- Custom List -->
-                           <ul class="custom-list">
-                              <li>
-                                 <a href="#">1 giường</a> /
-                              </li>
-                              <li>
-                                 <a href="#">2 khách</a>
-                              </li>
-                              <!-- / <li>
-                                 <a href="#">sea  view</a>
-                                 </li>-->
-                           </ul>
-                        </div>
-                        <!-- Price -->
-                        <div class="price">
-                           <span>0đ/850,000đ</span>
-                        </div>
-                     </header>
-                     <!-- paragraph -->
-                     <p>
-                        <i class="fa fa-map-marker"></i> 3 Đại lộ Thăng Long, Từ Liêm, Hà Nội, Việt Nam
-                     </p>
-                     <!-- Facilities List -->
-                     <ul class="facilities-list">
-                        <li>
-                           <i class="flaticon-home"></i>
-                           <span>
-                           Studio
-                           </span>
-                        </li>
-                        <li>
-                           <i class="flaticon-air-conditioner"></i>
-                           <span>Điều hoà</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-room-service"></i>
-                           <span>Dịch vụ phòng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-wifi"></i>
-                           <span>Wifi miễn phí</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-monitor"></i>
-                           <span>TV</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Tắm đứng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>0 Bồn tắm</span>
-                        </li>
-                     </ul>
-                     <div class="clearfix"></div>
-                     <p>
-                        Vi&#039;s Homestay 19 thuộc dự án chung cư đẳng cấp Vinhomes Green Bay, Mễ Trì anh Xuân, Hà Nội với view bao trọn thành phố chắc chắn là một điểm hẹn...
-                     </p>
-                     <!-- Btn Div -->
-                     <div class="btn-div">
-                        <a href="http://2home.vn/phong-can-ho/vi-s-homestay-19-green-bay/175.html">
-                        <span class="read-more">Đặt ngay</span>
-                        <span class="icon-arrow-right2 bg-danger">
-                        <i class="fa  fa-angle-right"></i>
-                        </span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Rooms List Box End-->
-            <!-- Rooms List Start -->
-            <div class="rooms-list-box clearfix">
-               <div class=" row-table row-flush">
-                  <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12 rooms-pic">
-                     <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-29/174.html">
-                     <img src="http://admin.2home.vn/upload/efb218724cc551b1e8aadc05736f9a7b.JPG" alt="Luxury Metropolis Apartment 29" class="img-responsive">
-                     </a>
-                  </div>
-                  <!-- Detail Body -->
-                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 detail-body">
-                     <!-- Header -->
-                     <header>
-                        <div class="pull-left">
-                           <!-- Title -->
-                           <h5 class="title">
-                              <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-29/174.html">Luxury Metropolis Apartment 29</a>
-                           </h5>
-                           <!-- Custom List -->
-                           <ul class="custom-list">
-                              <li>
-                                 <a href="#">3 giường</a> /
-                              </li>
-                              <li>
-                                 <a href="#">6 khách</a>
-                              </li>
-                              <!-- / <li>
-                                 <a href="#">sea  view</a>
-                                 </li>-->
-                           </ul>
-                        </div>
-                        <!-- Price -->
-                        <div class="price">
-                           <span>0đ/2,500,000đ</span>
-                        </div>
-                     </header>
-                     <!-- paragraph -->
-                     <p>
-                        <i class="fa fa-map-marker"></i> 29 Liễu Giai, Ba Đình, Hà Nội, Việt Nam
-                     </p>
-                     <!-- Facilities List -->
-                     <ul class="facilities-list">
-                        <li>
-                           <i class="flaticon-home"></i>
-                           <span>
-                           Apartment
-                           </span>
-                        </li>
-                        <li>
-                           <i class="flaticon-air-conditioner"></i>
-                           <span>Điều hoà</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-room-service"></i>
-                           <span>Dịch vụ phòng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-wifi"></i>
-                           <span>Wifi miễn phí</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-monitor"></i>
-                           <span>TV</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-balcony"></i>
-                           <span>Ban công</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Tắm đứng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Bồn tắm</span>
-                        </li>
-                     </ul>
-                     <div class="clearfix"></div>
-                     <p>
-                        Đẳng cấp, sang trọng, hiện đại - Luxury Metropolis Apartment 29 tọa lạc tại vị trí trung tâm đắc địa ( nút giao Liễu Giai - Kim Mã). Với tiện nghi...
-                     </p>
-                     <!-- Btn Div -->
-                     <div class="btn-div">
-                        <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-29/174.html">
-                        <span class="read-more">Đặt ngay</span>
-                        <span class="icon-arrow-right2 bg-danger">
-                        <i class="fa  fa-angle-right"></i>
-                        </span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Rooms List Box End-->
-            <!-- Rooms List Start -->
-            <div class="rooms-list-box clearfix">
-               <div class=" row-table row-flush">
-                  <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12 rooms-pic">
-                     <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-28/173.html">
-                     <img src="http://admin.2home.vn/upload/219d285b681893918320fa84069017ff.JPG" alt="Luxury Metropolis Apartment 28" class="img-responsive">
-                     </a>
-                  </div>
-                  <!-- Detail Body -->
-                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 detail-body">
-                     <!-- Header -->
-                     <header>
-                        <div class="pull-left">
-                           <!-- Title -->
-                           <h5 class="title">
-                              <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-28/173.html">Luxury Metropolis Apartment 28</a>
-                           </h5>
-                           <!-- Custom List -->
-                           <ul class="custom-list">
-                              <li>
-                                 <a href="#">2 giường</a> /
-                              </li>
-                              <li>
-                                 <a href="#">4 khách</a>
-                              </li>
-                              <!-- / <li>
-                                 <a href="#">sea  view</a>
-                                 </li>-->
-                           </ul>
-                        </div>
-                        <!-- Price -->
-                        <div class="price">
-                           <span>0đ/2,250,000đ</span>
-                        </div>
-                     </header>
-                     <!-- paragraph -->
-                     <p>
-                        <i class="fa fa-map-marker"></i> 29 Liễu Giai, Ba Đình, Hà Nội, Việt Nam
-                     </p>
-                     <!-- Facilities List -->
-                     <ul class="facilities-list">
-                        <li>
-                           <i class="flaticon-home"></i>
-                           <span>
-                           Apartment
-                           </span>
-                        </li>
-                        <li>
-                           <i class="flaticon-air-conditioner"></i>
-                           <span>Điều hoà</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-room-service"></i>
-                           <span>Dịch vụ phòng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-wifi"></i>
-                           <span>Wifi miễn phí</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-monitor"></i>
-                           <span>TV</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-balcony"></i>
-                           <span>Ban công</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Tắm đứng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Bồn tắm</span>
-                        </li>
-                     </ul>
-                     <div class="clearfix"></div>
-                     <p>
-                        Đẳng cấp, sang trọng, hiện đại, nằm trên tầng 43 - Luxury Metropolis Apartment 28 tọa lạc tại vị trí trung tâm đắc địa ( nút giao Liễu Giai - Kim...
-                     </p>
-                     <!-- Btn Div -->
-                     <div class="btn-div">
-                        <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-28/173.html">
-                        <span class="read-more">Đặt ngay</span>
-                        <span class="icon-arrow-right2 bg-danger">
-                        <i class="fa  fa-angle-right"></i>
-                        </span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Rooms List Box End-->
-            <!-- Rooms List Start -->
-            <div class="rooms-list-box clearfix">
-               <div class=" row-table row-flush">
-                  <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12 rooms-pic">
-                     <a href="http://2home.vn/phong-can-ho/amy-apartment-vinhomes-metropolis/172.html">
-                     <img src="http://admin.2home.vn/upload/70383204fda2fdae5d4095da5fea47ac.jpg" alt="Amy Apartment - Vinhomes Metropolis" class="img-responsive">
-                     </a>
-                  </div>
-                  <!-- Detail Body -->
-                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 detail-body">
-                     <!-- Header -->
-                     <header>
-                        <div class="pull-left">
-                           <!-- Title -->
-                           <h5 class="title">
-                              <a href="http://2home.vn/phong-can-ho/amy-apartment-vinhomes-metropolis/172.html">Amy Apartment - Vinhomes Metropolis</a>
-                           </h5>
-                           <!-- Custom List -->
-                           <ul class="custom-list">
-                              <li>
-                                 <a href="#">2 giường</a> /
-                              </li>
-                              <li>
-                                 <a href="#">4 khách</a>
-                              </li>
-                              <!-- / <li>
-                                 <a href="#">sea  view</a>
-                                 </li>-->
-                           </ul>
-                        </div>
-                        <!-- Price -->
-                        <div class="price">
-                           <span>0đ/1,850,000đ</span>
-                        </div>
-                     </header>
-                     <!-- paragraph -->
-                     <p>
-                        <i class="fa fa-map-marker"></i> 29 Liễu Giai, Ba Đình, Hà Nội, Việt Nam
-                     </p>
-                     <!-- Facilities List -->
-                     <ul class="facilities-list">
-                        <li>
-                           <i class="flaticon-home"></i>
-                           <span>
-                           Apartment
-                           </span>
-                        </li>
-                        <li>
-                           <i class="flaticon-air-conditioner"></i>
-                           <span>Điều hoà</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-room-service"></i>
-                           <span>Dịch vụ phòng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-wifi"></i>
-                           <span>Wifi miễn phí</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-monitor"></i>
-                           <span>TV</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-balcony"></i>
-                           <span>Ban công</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Tắm đứng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Bồn tắm</span>
-                        </li>
-                     </ul>
-                     <div class="clearfix"></div>
-                     <p>
-                        Amy Apartment tọa lạc tại khu phức hợp sang trọng bậc nhất Vinhomes Metropolis, Liễu Giai, Hà Nội với thiết kế hiện đại, nội thất thời thượng nổi...
-                     </p>
-                     <!-- Btn Div -->
-                     <div class="btn-div">
-                        <a href="http://2home.vn/phong-can-ho/amy-apartment-vinhomes-metropolis/172.html">
-                        <span class="read-more">Đặt ngay</span>
-                        <span class="icon-arrow-right2 bg-danger">
-                        <i class="fa  fa-angle-right"></i>
-                        </span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Rooms List Box End-->
-            <!-- Rooms List Start -->
-            <div class="rooms-list-box clearfix">
-               <div class=" row-table row-flush">
-                  <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12 rooms-pic">
-                     <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-27/171.html">
-                     <img src="http://admin.2home.vn/upload/41fc3f6b26e8e9faf2ea026e4c1af7e2.jpeg" alt="Luxury Metropolis Apartment 27" class="img-responsive">
-                     </a>
-                  </div>
-                  <!-- Detail Body -->
-                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 detail-body">
-                     <!-- Header -->
-                     <header>
-                        <div class="pull-left">
-                           <!-- Title -->
-                           <h5 class="title">
-                              <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-27/171.html">Luxury Metropolis Apartment 27</a>
-                           </h5>
-                           <!-- Custom List -->
-                           <ul class="custom-list">
-                              <li>
-                                 <a href="#">2 giường</a> /
-                              </li>
-                              <li>
-                                 <a href="#">4 khách</a>
-                              </li>
-                              <!-- / <li>
-                                 <a href="#">sea  view</a>
-                                 </li>-->
-                           </ul>
-                        </div>
-                        <!-- Price -->
-                        <div class="price">
-                           <span>0đ/2,125,000đ</span>
-                        </div>
-                     </header>
-                     <!-- paragraph -->
-                     <p>
-                        <i class="fa fa-map-marker"></i> 29 Liễu Giai, Ba Đình, Hà Nội, Việt Nam
-                     </p>
-                     <!-- Facilities List -->
-                     <ul class="facilities-list">
-                        <li>
-                           <i class="flaticon-home"></i>
-                           <span>
-                           Apartment
-                           </span>
-                        </li>
-                        <li>
-                           <i class="flaticon-air-conditioner"></i>
-                           <span>Điều hoà</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-room-service"></i>
-                           <span>Dịch vụ phòng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-wifi"></i>
-                           <span>Wifi miễn phí</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-monitor"></i>
-                           <span>TV</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-balcony"></i>
-                           <span>Ban công</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Tắm đứng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Bồn tắm</span>
-                        </li>
-                     </ul>
-                     <div class="clearfix"></div>
-                     <p>
-                        Đẳng cấp, sang trọng, hiện đại - Luxury Metropolis Apartment 27 tọa lạc tại vị trí trung tâm đắc địa ( nút giao Liễu Giai - Kim Mã). Với tiện nghi...
-                     </p>
-                     <!-- Btn Div -->
-                     <div class="btn-div">
-                        <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-27/171.html">
-                        <span class="read-more">Đặt ngay</span>
-                        <span class="icon-arrow-right2 bg-danger">
-                        <i class="fa  fa-angle-right"></i>
-                        </span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Rooms List Box End-->
-            <!-- Rooms List Start -->
-            <div class="rooms-list-box clearfix">
-               <div class=" row-table row-flush">
-                  <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12 rooms-pic">
-                     <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-26/170.html">
-                     <img src="http://admin.2home.vn/upload/635c3e7949d2717f00a9842fc331efd1.jpg" alt="Luxury Metropolis Apartment 26" class="img-responsive">
-                     </a>
-                  </div>
-                  <!-- Detail Body -->
-                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 detail-body">
-                     <!-- Header -->
-                     <header>
-                        <div class="pull-left">
-                           <!-- Title -->
-                           <h5 class="title">
-                              <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-26/170.html">Luxury Metropolis Apartment 26</a>
-                           </h5>
-                           <!-- Custom List -->
-                           <ul class="custom-list">
-                              <li>
-                                 <a href="#">2 giường</a> /
-                              </li>
-                              <li>
-                                 <a href="#">4 khách</a>
-                              </li>
-                              <!-- / <li>
-                                 <a href="#">sea  view</a>
-                                 </li>-->
-                           </ul>
-                        </div>
-                        <!-- Price -->
-                        <div class="price">
-                           <span>0đ/1,800,000đ</span>
-                        </div>
-                     </header>
-                     <!-- paragraph -->
-                     <p>
-                        <i class="fa fa-map-marker"></i> 29 Liễu Giai, Ba Đình, Hà Nội, Việt Nam
-                     </p>
-                     <!-- Facilities List -->
-                     <ul class="facilities-list">
-                        <li>
-                           <i class="flaticon-home"></i>
-                           <span>
-                           Apartment
-                           </span>
-                        </li>
-                        <li>
-                           <i class="flaticon-air-conditioner"></i>
-                           <span>Điều hoà</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-room-service"></i>
-                           <span>Dịch vụ phòng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-wifi"></i>
-                           <span>Wifi miễn phí</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-monitor"></i>
-                           <span>TV</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-balcony"></i>
-                           <span>Ban công</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Tắm đứng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Bồn tắm</span>
-                        </li>
-                     </ul>
-                     <div class="clearfix"></div>
-                     <p>
-                        Đẳng cấp, sang trọng, hiện đại - Luxury Metropolis Apartment 26 tọa lạc tại vị trí trung tâm đắc địa ( nút giao Liễu Giai - Kim Mã). Với tiện nghi...
-                     </p>
-                     <!-- Btn Div -->
-                     <div class="btn-div">
-                        <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-26/170.html">
-                        <span class="read-more">Đặt ngay</span>
-                        <span class="icon-arrow-right2 bg-danger">
-                        <i class="fa  fa-angle-right"></i>
-                        </span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Rooms List Box End-->
-            <!-- Rooms List Start -->
-            <div class="rooms-list-box clearfix">
-               <div class=" row-table row-flush">
-                  <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12 rooms-pic">
-                     <a href="http://2home.vn/phong-can-ho/anna-apartment-vinhomes-metropolis/169.html">
-                     <img src="http://admin.2home.vn/upload/ed29739517b4e35305c538037cdd36ec.jpg" alt="Anna Apartment - Vinhomes Metropolis" class="img-responsive">
-                     </a>
-                  </div>
-                  <!-- Detail Body -->
-                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 detail-body">
-                     <!-- Header -->
-                     <header>
-                        <div class="pull-left">
-                           <!-- Title -->
-                           <h5 class="title">
-                              <a href="http://2home.vn/phong-can-ho/anna-apartment-vinhomes-metropolis/169.html">Anna Apartment - Vinhomes Metropolis</a>
-                           </h5>
-                           <!-- Custom List -->
-                           <ul class="custom-list">
-                              <li>
-                                 <a href="#">2 giường</a> /
-                              </li>
-                              <li>
-                                 <a href="#">4 khách</a>
-                              </li>
-                              <!-- / <li>
-                                 <a href="#">sea  view</a>
-                                 </li>-->
-                           </ul>
-                        </div>
-                        <!-- Price -->
-                        <div class="price">
-                           <span>0đ/1,725,000đ</span>
-                        </div>
-                     </header>
-                     <!-- paragraph -->
-                     <p>
-                        <i class="fa fa-map-marker"></i> 29 Liễu Giai, Ba Đình, Hà Nội, Việt Nam
-                     </p>
-                     <!-- Facilities List -->
-                     <ul class="facilities-list">
-                        <li>
-                           <i class="flaticon-home"></i>
-                           <span>
-                           Apartment
-                           </span>
-                        </li>
-                        <li>
-                           <i class="flaticon-air-conditioner"></i>
-                           <span>Điều hoà</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-room-service"></i>
-                           <span>Dịch vụ phòng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-wifi"></i>
-                           <span>Wifi miễn phí</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-monitor"></i>
-                           <span>TV</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-balcony"></i>
-                           <span>Ban công</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Tắm đứng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Bồn tắm</span>
-                        </li>
-                     </ul>
-                     <div class="clearfix"></div>
-                     <p>
-                        Anna Apartment tọa lạc tại khu phức hợp sang trọng bậc nhất Vinhomes Metropolis, Liễu Giai, Hà Nội với thiết kế hiện đại, nội thất thời thượng nổi...
-                     </p>
-                     <!-- Btn Div -->
-                     <div class="btn-div">
-                        <a href="http://2home.vn/phong-can-ho/anna-apartment-vinhomes-metropolis/169.html">
-                        <span class="read-more">Đặt ngay</span>
-                        <span class="icon-arrow-right2 bg-danger">
-                        <i class="fa  fa-angle-right"></i>
-                        </span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Rooms List Box End-->
-            <!-- Rooms List Start -->
-            <div class="rooms-list-box clearfix">
-               <div class=" row-table row-flush">
-                  <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12 rooms-pic">
-                     <a href="http://2home.vn/phong-can-ho/ruby-luxury-10-the-legend/168.html">
-                     <img src="http://admin.2home.vn/upload/32e356ad1dbaf94f46f55d6de604a6e0.jpg" alt="Ruby Luxury 10 - The Legend" class="img-responsive">
-                     </a>
-                  </div>
-                  <!-- Detail Body -->
-                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 detail-body">
-                     <!-- Header -->
-                     <header>
-                        <div class="pull-left">
-                           <!-- Title -->
-                           <h5 class="title">
-                              <a href="http://2home.vn/phong-can-ho/ruby-luxury-10-the-legend/168.html">Ruby Luxury 10 - The Legend</a>
-                           </h5>
-                           <!-- Custom List -->
-                           <ul class="custom-list">
-                              <li>
-                                 <a href="#">2 giường</a> /
-                              </li>
-                              <li>
-                                 <a href="#">4 khách</a>
-                              </li>
-                              <!-- / <li>
-                                 <a href="#">sea  view</a>
-                                 </li>-->
-                           </ul>
-                        </div>
-                        <!-- Price -->
-                        <div class="price">
-                           <span>0đ/1,375,000đ</span>
-                        </div>
-                     </header>
-                     <!-- paragraph -->
-                     <p>
-                        <i class="fa fa-map-marker"></i> 109 Nguyễn Tuân, Thanh Xuân Trung, Thanh Xuân, Hanoi, Vietnam
-                     </p>
-                     <!-- Facilities List -->
-                     <ul class="facilities-list">
-                        <li>
-                           <i class="flaticon-home"></i>
-                           <span>
-                           Apartment
-                           </span>
-                        </li>
-                        <li>
-                           <i class="flaticon-air-conditioner"></i>
-                           <span>Điều hoà</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-room-service"></i>
-                           <span>Dịch vụ phòng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-wifi"></i>
-                           <span>Wifi miễn phí</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-monitor"></i>
-                           <span>TV</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-balcony"></i>
-                           <span>Ban công</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>2 Tắm đứng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>0 Bồn tắm</span>
-                        </li>
-                     </ul>
-                     <div class="clearfix"></div>
-                     <p>
-                        Thiết kế sang trọng với tone màu trắng kem, căn hộ 2 phòng ngủ Ruby Luxury 10 - The Legend là địa điểm lý tưởng cho gia đình và nhóm bạn nghỉ...
-                     </p>
-                     <!-- Btn Div -->
-                     <div class="btn-div">
-                        <a href="http://2home.vn/phong-can-ho/ruby-luxury-10-the-legend/168.html">
-                        <span class="read-more">Đặt ngay</span>
-                        <span class="icon-arrow-right2 bg-danger">
-                        <i class="fa  fa-angle-right"></i>
-                        </span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Rooms List Box End-->
-            <!-- Rooms List Start -->
-            <div class="rooms-list-box clearfix">
-               <div class=" row-table row-flush">
-                  <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12 rooms-pic">
-                     <a href="http://2home.vn/phong-can-ho/vi-s-homestay-18-imperia/167.html">
-                     <img src="http://admin.2home.vn/upload/9b7949cd0e7247876ca665a97d482fde.jpg" alt="Vi&#039;s Homestay 18 - Imperia" class="img-responsive">
-                     </a>
-                  </div>
-                  <!-- Detail Body -->
-                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 detail-body">
-                     <!-- Header -->
-                     <header>
-                        <div class="pull-left">
-                           <!-- Title -->
-                           <h5 class="title">
-                              <a href="http://2home.vn/phong-can-ho/vi-s-homestay-18-imperia/167.html">Vi&#039;s Homestay 18 - Imperia</a>
-                           </h5>
-                           <!-- Custom List -->
-                           <ul class="custom-list">
-                              <li>
-                                 <a href="#">2 giường</a> /
-                              </li>
-                              <li>
-                                 <a href="#">4 khách</a>
-                              </li>
-                              <!-- / <li>
-                                 <a href="#">sea  view</a>
-                                 </li>-->
-                           </ul>
-                        </div>
-                        <!-- Price -->
-                        <div class="price">
-                           <span>630,000đ/1,400,000đ</span>
-                        </div>
-                     </header>
-                     <!-- paragraph -->
-                     <p>
-                        <i class="fa fa-map-marker"></i> 203 Nguyễn Huy Tưởng, Thanh Xuân Trung, Thanh Xuân, Hà Nội, Việt Nam
-                     </p>
-                     <!-- Facilities List -->
-                     <ul class="facilities-list">
-                        <li>
-                           <i class="flaticon-home"></i>
-                           <span>
-                           Apartment
-                           </span>
-                        </li>
-                        <li>
-                           <i class="flaticon-air-conditioner"></i>
-                           <span>Điều hoà</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-room-service"></i>
-                           <span>Dịch vụ phòng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-wifi"></i>
-                           <span>Wifi miễn phí</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-monitor"></i>
-                           <span>TV</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-balcony"></i>
-                           <span>Ban công</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Tắm đứng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Bồn tắm</span>
-                        </li>
-                     </ul>
-                     <div class="clearfix"></div>
-                     <p>
-                        Nằm trên tầng 24 của chung cư cao cấp Imperia Garden, Thanh Xuân, Hà Nội, Vi&#039;s Homestay 18 với 2 phòng ngủ nổi bật với kiến trúc hiện đại, nội...
-                     </p>
-                     <!-- Btn Div -->
-                     <div class="btn-div">
-                        <a href="http://2home.vn/phong-can-ho/vi-s-homestay-18-imperia/167.html">
-                        <span class="read-more">Đặt ngay</span>
-                        <span class="icon-arrow-right2 bg-danger">
-                        <i class="fa  fa-angle-right"></i>
-                        </span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Rooms List Box End-->
-            <!-- Rooms List Start -->
-            <div class="rooms-list-box clearfix">
-               <div class=" row-table row-flush">
-                  <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12 rooms-pic">
-                     <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-25/166.html">
-                     <img src="http://admin.2home.vn/upload/567db7bb87a27338d3de40fe292d7ba4.jpg" alt="Luxury Metropolis Apartment 25" class="img-responsive">
-                     </a>
-                  </div>
-                  <!-- Detail Body -->
-                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 detail-body">
-                     <!-- Header -->
-                     <header>
-                        <div class="pull-left">
-                           <!-- Title -->
-                           <h5 class="title">
-                              <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-25/166.html">Luxury Metropolis Apartment 25</a>
-                           </h5>
-                           <!-- Custom List -->
-                           <ul class="custom-list">
-                              <li>
-                                 <a href="#">2 giường</a> /
-                              </li>
-                              <li>
-                                 <a href="#">4 khách</a>
-                              </li>
-                              <!-- / <li>
-                                 <a href="#">sea  view</a>
-                                 </li>-->
-                           </ul>
-                        </div>
-                        <!-- Price -->
-                        <div class="price">
-                           <span>0đ/1,500,000đ</span>
-                        </div>
-                     </header>
-                     <!-- paragraph -->
-                     <p>
-                        <i class="fa fa-map-marker"></i> 29 Liễu Giai, Ba Đình, Hà Nội, Việt Nam
-                     </p>
-                     <!-- Facilities List -->
-                     <ul class="facilities-list">
-                        <li>
-                           <i class="flaticon-home"></i>
-                           <span>
-                           Apartment
-                           </span>
-                        </li>
-                        <li>
-                           <i class="flaticon-air-conditioner"></i>
-                           <span>Điều hoà</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-room-service"></i>
-                           <span>Dịch vụ phòng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-wifi"></i>
-                           <span>Wifi miễn phí</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-monitor"></i>
-                           <span>TV</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-balcony"></i>
-                           <span>Ban công</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Tắm đứng</span>
-                        </li>
-                        <li>
-                           <i class="flaticon-person-enjoying-jacuzzi-hot-water-bath"></i>
-                           <span>1 Bồn tắm</span>
-                        </li>
-                     </ul>
-                     <div class="clearfix"></div>
-                     <p>
-                        Đẳng cấp, sang trọng, hiện đại - Luxury Metropolis Apartment 25 tọa lạc tại vị trí trung tâm đắc địa ( nút giao Liễu Giai - Kim Mã). Với tiện nghi...
-                     </p>
-                     <!-- Btn Div -->
-                     <div class="btn-div">
-                        <a href="http://2home.vn/phong-can-ho/luxury-metropolis-apartment-25/166.html">
-                        <span class="read-more">Đặt ngay</span>
-                        <span class="icon-arrow-right2 bg-danger">
-                        <i class="fa  fa-angle-right"></i>
-                        </span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Rooms List Box End-->
-            <!-- Page navigation Start-->
-            <nav aria-label="Page navigation">
-               <ul class="pagination">
-                  <li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
-                  <li><a href="#" onclick='return onPage(2);'>2</a></li>
-                  <li><a href="#" onclick='return onPage(3);'>3</a></li>
-                  <li><a href="#" onclick='return onPage(4);'>4</a></li>
-                  <li><a href="#" onclick='return onPage(5);'>5</a></li>
-                  <li><a href="#" onclick='return onPage(6);'>6</a></li>
-                  <li><a href="#" onclick='return onPage(7);'>7</a></li>
-                  <li><a href="#" onclick='return onPage(8);'>8</a></li>
-                  <li><a href="#" onclick='return onPage(9);'>9</a></li>
-                  <li><a href="#" onclick='return onPage(10);'>10</a></li>
-                  <li><a href="#" onclick='return onPage(2);' aria-label="Next"><span aria-hidden="true">»</span></a></li>
-               </ul>
-            </nav>
-            <!-- Page navigation End-->
-            <!-- Recent News Start-->
-            <div class="Recent-news sidebar-widget show-sp">
-               <!-- Title-->
-               <h2 class="title">Tin tức</h2>
-               <div class="media">
-                  <div class="media-left">
-                     <a href="http://2home.vn/tin-tuc/dinh-nghia-chuan-ve-khai-niem-can-ho-cao-cap-con-sot-dat-phong-tai-ha-noi-nam-2018/10.html">
-                     <img class="media-object" src="http://admin.2home.vn/upload/ee3a3f70cd52afeb342fb679c03add65.jpg" alt="ĐỊNH NGHĨA CHUẨN VỀ KHÁI NIỆM &quot;CĂN HỘ CAO CẤP&quot; - CƠN SỐT ĐẶT PHÒNG TẠI HÀ NỘI NĂM 2018">
-                     </a>
-                  </div>
-                  <div class="media-body">
-                     <a href="http://2home.vn/tin-tuc/dinh-nghia-chuan-ve-khai-niem-can-ho-cao-cap-con-sot-dat-phong-tai-ha-noi-nam-2018/10.html">ĐỊNH NGHĨA CHUẨN VỀ KHÁI NIỆM &quot;CĂN HỘ CAO CẤP&quot; - CƠN SỐT ĐẶT PHÒNG TẠI HÀ NỘI NĂM 2018</a>
-                     <span>0000-00-00 00:00:00</span>
-                  </div>
-               </div>
-               <div class="media">
-                  <div class="media-left">
-                     <a href="http://2home.vn/tin-tuc/5-bo-phim-khong-the-cuong-lai-danh-cho-nhung-cap-doi-dang-yeu/6.html">
-                     <img class="media-object" src="http://admin.2home.vn/upload/be47f2e5e70fa7974a57c74258c5eda0.jpg" alt="5 BỘ PHIM KHÔNG THỂ CƯỠNG LẠI DÀNH CHO NHỮNG CẶP ĐÔI ĐANG YÊU">
-                     </a>
-                  </div>
-                  <div class="media-body">
-                     <a href="http://2home.vn/tin-tuc/5-bo-phim-khong-the-cuong-lai-danh-cho-nhung-cap-doi-dang-yeu/6.html">5 BỘ PHIM KHÔNG THỂ CƯỠNG LẠI DÀNH CHO NHỮNG CẶP ĐÔI ĐANG YÊU</a>
-                     <span>2017-08-17 07:00:00</span>
-                  </div>
-               </div>
-               <div class="media">
-                  <div class="media-left">
-                     <a href="http://2home.vn/tin-tuc/lua-chon-dia-diem-hen-ho-khong-the-dai-khai-duoc-part-ii/5.html">
-                     <img class="media-object" src="http://admin.2home.vn/upload/eec2366a4d7e337226fcb14e4d2fd878.jpg" alt="LỰA CHỌN ĐỊA ĐIỂM HẸN HÒ - KHÔNG THỂ ĐẠI KHÁI ĐƯỢC! (PART II)">
-                     </a>
-                  </div>
-                  <div class="media-body">
-                     <a href="http://2home.vn/tin-tuc/lua-chon-dia-diem-hen-ho-khong-the-dai-khai-duoc-part-ii/5.html">LỰA CHỌN ĐỊA ĐIỂM HẸN HÒ - KHÔNG THỂ ĐẠI KHÁI ĐƯỢC! (PART II)</a>
-                     <span>2017-08-18 07:00:00</span>
-                  </div>
-               </div>
-               <div class="media">
-                  <div class="media-left">
-                     <a href="http://2home.vn/tin-tuc/lua-chon-dia-diem-hen-ho-khong-the-dai-khai-duoc-part-i/4.html">
-                     <img class="media-object" src="http://admin.2home.vn/upload/beadbbacc3fc375f5820ee2e37b6f962.jpg" alt="LỰA CHỌN ĐỊA ĐIỂM HẸN HÒ - KHÔNG THỂ ĐẠI KHÁI ĐƯỢC! (PART I)">
-                     </a>
-                  </div>
-                  <div class="media-body">
-                     <a href="http://2home.vn/tin-tuc/lua-chon-dia-diem-hen-ho-khong-the-dai-khai-duoc-part-i/4.html">LỰA CHỌN ĐỊA ĐIỂM HẸN HÒ - KHÔNG THỂ ĐẠI KHÁI ĐƯỢC! (PART I)</a>
-                     <span>2017-08-15 07:00:00</span>
-                  </div>
-               </div>
-            </div>
-            <!-- Recent News End-->
-            <!-- Helping Start-->
-            <div class="show-sp">
-               <div class="helping-Center sidebar-widget">
-                  <h2 class="title">Trợ giúp</h2>
-                  <p>Trung tâm chăm sóc khách hàng.</p>
-                  <ul class="contact-link">
-                     <li>
-                        <a href="#">
-                        <i class="fa fa-map-marker"></i>
-                        102 Thái Thịnh, phường Trung Liệt, quận Đống Đa, Hà Nội
-                        </a>
-                     </li>
-                     <li>
-                        <a href="tel:0944-910-499">
-                        <i class="fa fa-phone"></i>
-                        0944-910-499
-                        </a>
-                     </li>
-                     <li>
-                        <a href="mailto:always2home@gmail.com">
-                        <i class="fa fa-envelope-o"></i>
-                        always2home@gmail.com
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
-<!-- Rooms List End-->
-<!-- Footer Start-->
-<footer class="main-footer clearfix">
+<footer>
     <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6 footer-item clearfix">
-                <div class="footer-item-content">
-                    <a href="/" class="logo">
-                        <img src="images/logo.png">
-                    </a>
-                    <div class="clearfix"></div>
-                    <!-- paragraph-->
-                    <p>2HOME – 2 HAPPINESS</p>
-                    <p>“Chạm đến niềm hạnh phúc thực sự ở mọi giác quan của khách hàng”</p>
-
-                    <ul class="clearfix">
-                        <li>
-                            <a href="tel:0944-910-499">
-                                <i class="fa fa-phone"></i>
-                                0944-910-499
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:always2home@gmail.com">
-                                <i class="fa fa-envelope-o"></i>
-                                always2home@gmail.com
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- Social List-->
-                    <div class="social-list clearfix">
-                        <a href="https://www.facebook.com/always2home" target="_blank" class="bg-facebook">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="https://www.instagram.com/2h0me/" target="_blank" class="bg-twitter">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                    </div>
+        <div class="row top-footer">
+            <div class="col-md-4">
+                <h4>Công ty cổ phần việt tht</h4>
+                <div class="mt-30">
+                    <p>Địa chỉ: Số 16, ngõ 50, phố kim hoa, phường Phương Liên, Đống Đa, Hà Nội</p>
+                    <p>Điện thoại: 084 3556 9838 - Email: contactTHT@gmail.com</p>
                 </div>
             </div>
-
-            <div class="col-md-3 col-sm-6 footer-item clearfix">
-                <div class="footer-item-content">
-                    <h2>Phòng/căn hộ</h2>
-                    <div class="content" id="footer-recent-room">
-
-                    </div>
+            <div class="col-md-4">
+                <h4>Theo dõi chúng tôi</h4>
+                <div class="box-newletter mt-30">
+                    <form action="" method="get" accept-charset="utf-8">
+                        <input type="text" name="newletter" value="" class="input-newletter" placeholder="Your email">
+                        <input type="submit" name="" class="btn-submit-newletter" value="Gửi">
+                    </form>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 footer-item clearfix">
-                <div class="footer-item-content">
-                    <h2>Tags</h2>
-
-                    <a href="/tim-kiem.html?query=apps" class="tags">Apps</a>
-                    <a href="/tim-kiem.html?query=blog" class="tags">blog</a>
-                    <a href="/tim-kiem.html?query=business" class="tags">business</a>
-                    <a href="/tim-kiem.html?query=design" class="tags">design</a>
-                    <a href="/tim-kiem.html?query=education" class="tags">education</a>
-                    <a href="/tim-kiem.html?query=Fitness" class="tags">Fitness</a>
-                    <a href="/tim-kiem.html?query=photography" class="tags">photography</a>
-                    <a href="/tim-kiem.html?query=real" class="tags">real</a>
-                    <a href="/tim-kiem.html?query=web" class="tags">web</a>
-                    <a href="/tim-kiem.html?query=blog" class="tags">Booking</a>
-                    <a href="/tim-kiem.html?query=Hotels" class="tags">Hotels</a>
-                </div>
+            <div class="col-md-4">
+                <p class="tac"><a href="" title=""><img src="images/logo_footer.png" alt=""></a></p>
             </div>
-
-            <div class="col-md-3 col-sm-6 footer-item clearfix">
-                <div class="footer-item-content">
-                    <h2>Tin tức</h2>
-                    <div class="content" id="footer-recent-news"></div>
-                </div>
-            </div>
+        </div>
+        <div class="row bottom-footer">
+            <ul>
+                <li><a href="">Trang chủ</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Chương trình truyền hình</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Liên hệ</a></li>
+            </ul>
+            <p class="copyright">Copyright 2019 viettht</p>
         </div>
     </div>
 </footer>
-<!-- Footer End-->
 
-<!-- Sub Footer-->
-<div class="sub-footer">
-    <div class="container">
-        <span>Copyright 2019. Bản quyền thuộc về: Công ty cổ phần hungthinh.ads</span>
-    </div>
-</div>
 
 </body>
-
 </html>

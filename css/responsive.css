@@ -18,6 +18,24 @@
 		width: 20%;
 		float: left;
 	}
+	.box-list-news{
+		padding-left: 20px;
+		margin-bottom: 20px;
+	}
+	.bg-video{
+		height: 150px;
+	}
+	.name-news{
+		margin-top: 10px;
+	}
+	.link-box .item, .last-link{
+		margin-bottom: 10px;
+		display: block;
+	}
+	.box-program-hot .box-right{
+		height: auto;
+		margin-bottom: 15px;
+	}
 }
 @media (min-width: 768px) {
 	
