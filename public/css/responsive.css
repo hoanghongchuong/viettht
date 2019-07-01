@@ -1,0 +1,61 @@
+@media (max-width: 767px){
+	.p-sticky{
+		position: static;
+	}
+	header .right {
+	    text-align: left;
+	}
+	.box-search, .list-icon{
+		margin-top: 10px;
+		float: left;
+		width: 100%;
+	}
+	.input-search{
+		width: 80%;
+		float: left;
+	}
+	.btn-search{
+		width: 20%;
+		float: left;
+	}
+	.box-list-news{
+		padding-left: 20px;
+		margin-bottom: 20px;
+	}
+	.bg-video{
+		height: 150px;
+	}
+	.name-news{
+		margin-top: 10px;
+	}
+	.link-box .item, .last-link{
+		margin-bottom: 10px;
+		display: block;
+	}
+	.box-program-hot .box-right{
+		height: auto;
+		margin-bottom: 15px;
+		padding: 20px;
+	}
+	.cottruyen{
+		height: 205px;
+	}
+	.fix-chanel ul li{
+		width: 24%;
+	}
+
+}
+@media (min-width: 768px) {
+	
+}
+@media (min-width: 768px) and (max-width: 999px){
+	.menu{
+		margin-top: 20px;
+	}
+}
+@media (min-width: 1000px) {
+	
+}
+@media (min-width: 1200px){
+	
+}
